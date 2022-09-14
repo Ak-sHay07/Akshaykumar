@@ -1,0 +1,81 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:violet;
+  }
+  
+  li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor:grab;
+  }
+  li a:hover{
+    background-color: lightgreen;
+}
+* {box-sizing:border-box}
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.enroll{
+  background-color:orange;
+  color:white;
+  
+}
+.firm3 {
+  margin:20px;padding:20px;width: 30px;
+}
+.cent{
+  margin-left: 500px;
+}
+.links{
+  height:600px;
+  background-color:aqua;
+  color:white;
+}
+.ak{
+    color: aqua;
+}
+
+h2 strong{
+  color: black ;
+}
